@@ -1,0 +1,19 @@
+{
+    "input_dim": 62,         
+    "n_units": 128,
+    "dropout": 0.3,
+    "dropout_rate": 0.3,
+    "residual": "True",
+    "num_joints": 31,
+    "embed_dim": 64,
+    "num_heads": 4,
+    "batch_size": 256,
+    "epochs": 1,
+    "learning_rate": 0.001,
+    "checkpoint_dir": "./checkpoints",
+    "TRAIN_DATA_PATH": "/Users/ryok3n/Desktop/Workspace/VMP2D/data/train_data_20.json",
+    "VAL_DATA_PATH": "/Users/ryok3n/Desktop/Workspace/VMP2D/data/val_data_20.json",
+    "TEST_DATA_PATH": "/Users/ryok3n/Desktop/Workspace/VMP2D/data/test_data_20.json",
+    "projection_matrix": [2.790552, 0.0, 0.0, 0.0, 0.0, 1.5696855, 0.0, 0.0, 0.0, 0.0, -1.0001999, -1.0, 0.0, 0.0, -0.20002, 0.0],
+    "projection_matrix_shape": [4, 4]
+}
